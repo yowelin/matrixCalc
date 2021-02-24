@@ -736,6 +736,8 @@ namespace matrixCalc
             this.Controls.Add(this.toolStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(800, 635);
+            this.MinimumSize = new System.Drawing.Size(800, 635);
             this.Name = "MainWindow";
             this.Text = "Matrix Calculator";
             this.Load += new System.EventHandler(this.MainWindow_Load);
